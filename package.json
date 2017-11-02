@@ -1,0 +1,16 @@
+{
+  "name": "npm_nauka",
+  "version": "1.0.0",
+  "description": "Praktyka modułów npm w ramach zadania Kodilla",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node zadanie.js"
+  },
+  "author": "Krzych",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "stat-mode": "^0.2.2"
+  }
+}
