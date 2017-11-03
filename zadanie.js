@@ -1,9 +1,9 @@
 var fs = require('fs');
 var colors = require('colors');
 
-fs.readdir(__dirname, function(err, files)
-{
+fs.readdir(__dirname, function(err, files) {
 	console.log(files);
+	files.join(', ');
 	fs.writeFile('./myPath.txt', files, function(err, data) {
 		if (err) throw err;
 		console.log('Zapisano do pliku'.green);
