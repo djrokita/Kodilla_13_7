@@ -3,7 +3,6 @@ var colors = require('colors');
 
 fs.readdir(__dirname, function(err, files) {
 	console.log(files);
-	//Komentarz potrzebny na commit
 	fs.writeFile('./myPath.txt', files, function(err, data) {
 		if (err) throw err;
 		console.log('Zapisano do pliku'.green);
